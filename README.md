@@ -1,5 +1,4 @@
-##yingke
-## 映客直播
+## KT直播
 ## 项目截图
 
 ##waring---需解压IJKMediaFramework.framework.zip
@@ -13,7 +12,7 @@
 ## 项目截图
 
 ![首页](https://github.com/KeenTeam1990/KTLive/blob/master/img/live.png)
-
+![详情](https://github.com/KeenTeam1990/KTLive/blob/master/img/kt.png)
 ![礼物🎁](https://github.com/KeenTeam1990/KTLive/blob/master/img/gift.png)
 
 ![爱心详情❤️](https://github.com/KeenTeam1990/KTLive/blob/master/img/like.png)
