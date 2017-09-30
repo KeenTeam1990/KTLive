@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36177D5A1F7C9AE50085D913 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D591F7C9AE50085D913 /* AppDelegate.swift */; };
+		36177D5C1F7C9AE50085D913 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D5B1F7C9AE50085D913 /* ViewController.swift */; };
+		36177D5F1F7C9AE50085D913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36177D5D1F7C9AE50085D913 /* Main.storyboard */; };
+		36177D611F7C9AE50085D913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36177D601F7C9AE50085D913 /* Assets.xcassets */; };
+		36177D641F7C9AE50085D913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36177D621F7C9AE50085D913 /* LaunchScreen.storyboard */; };
+		36177D6F1F7C9DEC0085D913 /* KTHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36177D6E1F7C9DEC0085D913 /* KTHeartFlyView.m */; };
+		36177D751F7CCCF90085D913 /* emmitParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D741F7CCCF90085D913 /* emmitParticles.swift */; };
+		36177D7A1F7CD9E20085D913 /* LiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D781F7CD9E20085D913 /* LiveTableViewCell.swift */; };
+		36177D7B1F7CD9E20085D913 /* LiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36177D791F7CD9E20085D913 /* LiveTableViewCell.xib */; };
+		36177D7F1F7CE1E30085D913 /* KTConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D7E1F7CE1E30085D913 /* KTConst.swift */; };
+		36177D821F7CE2F60085D913 /* KTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D811F7CE2F60085D913 /* KTModel.swift */; };
+		36177D891F7CE75E0085D913 /* ActInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D831F7CE75E0085D913 /* ActInfo.swift */; };
+		36177D8A1F7CE75E0085D913 /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D841F7CE75E0085D913 /* Creator.swift */; };
+		36177D8B1F7CE75E0085D913 /* Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D851F7CE75E0085D913 /* Extra.swift */; };
+		36177D8C1F7CE75E0085D913 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D861F7CE75E0085D913 /* Label.swift */; };
+		36177D8D1F7CE75E0085D913 /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D871F7CE75E0085D913 /* Live.swift */; };
+		36177D8E1F7CE75E0085D913 /* RootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36177D881F7CE75E0085D913 /* RootClass.swift */; };
+		367829CF1F7DE4C500305CC3 /* PlayVedioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367829CD1F7DE4C500305CC3 /* PlayVedioViewController.swift */; };
+		367829D01F7DE4C500305CC3 /* PlayVedioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 367829CE1F7DE4C500305CC3 /* PlayVedioViewController.xib */; };
+		36E73B9C1F7E92EA00226177 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E73B981F7E92EA00226177 /* libcrypto.a */; };
+		36E73B9D1F7E92EA00226177 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E73B991F7E92EA00226177 /* librtmp.a */; };
+		36E73BA01F7E931400226177 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E73B9F1F7E931400226177 /* libz.tbd */; };
+		36E73BAD1F7E94C500226177 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E73BAC1F7E94C500226177 /* libssl.a */; };
+		36E73BAF1F7E94DD00226177 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E73BAE1F7E94DD00226177 /* IJKMediaFramework.framework */; };
+		C5F13C887E8B45957A7D17D4 /* Pods_KTHeartFlyView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994268319AE2A46D9BDFDB88 /* Pods_KTHeartFlyView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3412A4754C088B86B6CAAA25 /* Pods-KTHeartFlyView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTHeartFlyView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTHeartFlyView/Pods-KTHeartFlyView.release.xcconfig"; sourceTree = "<group>"; };
+		36177D561F7C9AE50085D913 /* KT直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KT直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36177D591F7C9AE50085D913 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36177D5B1F7C9AE50085D913 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36177D5E1F7C9AE50085D913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36177D601F7C9AE50085D913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36177D631F7C9AE50085D913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36177D651F7C9AE50085D913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36177D6C1F7C9DEB0085D913 /* KTHeartFlyView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "KTHeartFlyView-Bridging-Header.h"; path = "KTHeartFlyView/KTHeartFlyView-Bridging-Header.h"; sourceTree = "<group>"; };
+		36177D6D1F7C9DEC0085D913 /* KTHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTHeartFlyView.h; sourceTree = "<group>"; };
+		36177D6E1F7C9DEC0085D913 /* KTHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTHeartFlyView.m; sourceTree = "<group>"; };
+		36177D741F7CCCF90085D913 /* emmitParticles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emmitParticles.swift; sourceTree = "<group>"; };
+		36177D781F7CD9E20085D913 /* LiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTableViewCell.swift; sourceTree = "<group>"; };
+		36177D791F7CD9E20085D913 /* LiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveTableViewCell.xib; sourceTree = "<group>"; };
+		36177D7E1F7CE1E30085D913 /* KTConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTConst.swift; sourceTree = "<group>"; };
+		36177D811F7CE2F60085D913 /* KTModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTModel.swift; sourceTree = "<group>"; };
+		36177D831F7CE75E0085D913 /* ActInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActInfo.swift; sourceTree = "<group>"; };
+		36177D841F7CE75E0085D913 /* Creator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
+		36177D851F7CE75E0085D913 /* Extra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extra.swift; sourceTree = "<group>"; };
+		36177D861F7CE75E0085D913 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		36177D871F7CE75E0085D913 /* Live.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
+		36177D881F7CE75E0085D913 /* RootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootClass.swift; sourceTree = "<group>"; };
+		367829CD1F7DE4C500305CC3 /* PlayVedioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVedioViewController.swift; sourceTree = "<group>"; };
+		367829CE1F7DE4C500305CC3 /* PlayVedioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayVedioViewController.xib; sourceTree = "<group>"; };
+		36E73B981F7E92EA00226177 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		36E73B991F7E92EA00226177 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		36E73B9F1F7E931400226177 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		36E73BAC1F7E94C500226177 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		36E73BAE1F7E94DD00226177 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		994268319AE2A46D9BDFDB88 /* Pods_KTHeartFlyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTHeartFlyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE05BCFB5717EF8DFE472908 /* Pods-KTHeartFlyView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTHeartFlyView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTHeartFlyView/Pods-KTHeartFlyView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36177D531F7C9AE50085D913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E73BAD1F7E94C500226177 /* libssl.a in Frameworks */,
+				36E73BA01F7E931400226177 /* libz.tbd in Frameworks */,
+				C5F13C887E8B45957A7D17D4 /* Pods_KTHeartFlyView.framework in Frameworks */,
+				36E73BAF1F7E94DD00226177 /* IJKMediaFramework.framework in Frameworks */,
+				36E73B9D1F7E92EA00226177 /* librtmp.a in Frameworks */,
+				36E73B9C1F7E92EA00226177 /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36177D4D1F7C9AE50085D913 = {
+			isa = PBXGroup;
+			children = (
+				36E73BAE1F7E94DD00226177 /* IJKMediaFramework.framework */,
+				36E73B971F7E92EA00226177 /* lib */,
+				36177D581F7C9AE50085D913 /* KTHeartFlyView */,
+				36177D571F7C9AE50085D913 /* Products */,
+				B4FB78F59B68E314E7039CFF /* Pods */,
+				D27455610DCDC91C1D7B0542 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36177D571F7C9AE50085D913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36177D561F7C9AE50085D913 /* KT直播.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36177D581F7C9AE50085D913 /* KTHeartFlyView */ = {
+			isa = PBXGroup;
+			children = (
+				36177D801F7CE2DC0085D913 /* Model */,
+				36177D701F7CCCB80085D913 /* KTFwView */,
+				36177D6B1F7C9DB10085D913 /* KTHeartFlyView */,
+				36177D591F7C9AE50085D913 /* AppDelegate.swift */,
+				36177D5B1F7C9AE50085D913 /* ViewController.swift */,
+				367829CD1F7DE4C500305CC3 /* PlayVedioViewController.swift */,
+				367829CE1F7DE4C500305CC3 /* PlayVedioViewController.xib */,
+				36177D781F7CD9E20085D913 /* LiveTableViewCell.swift */,
+				36177D791F7CD9E20085D913 /* LiveTableViewCell.xib */,
+				36177D5D1F7C9AE50085D913 /* Main.storyboard */,
+				36177D601F7C9AE50085D913 /* Assets.xcassets */,
+				36177D621F7C9AE50085D913 /* LaunchScreen.storyboard */,
+				36177D6C1F7C9DEB0085D913 /* KTHeartFlyView-Bridging-Header.h */,
+				36177D7E1F7CE1E30085D913 /* KTConst.swift */,
+				36177D651F7C9AE50085D913 /* Info.plist */,
+			);
+			path = KTHeartFlyView;
+			sourceTree = "<group>";
+		};
+		36177D6B1F7C9DB10085D913 /* KTHeartFlyView */ = {
+			isa = PBXGroup;
+			children = (
+				36177D6D1F7C9DEC0085D913 /* KTHeartFlyView.h */,
+				36177D6E1F7C9DEC0085D913 /* KTHeartFlyView.m */,
+			);
+			path = KTHeartFlyView;
+			sourceTree = "<group>";
+		};
+		36177D701F7CCCB80085D913 /* KTFwView */ = {
+			isa = PBXGroup;
+			children = (
+				36177D741F7CCCF90085D913 /* emmitParticles.swift */,
+			);
+			path = KTFwView;
+			sourceTree = "<group>";
+		};
+		36177D801F7CE2DC0085D913 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36177D831F7CE75E0085D913 /* ActInfo.swift */,
+				36177D841F7CE75E0085D913 /* Creator.swift */,
+				36177D851F7CE75E0085D913 /* Extra.swift */,
+				36177D861F7CE75E0085D913 /* Label.swift */,
+				36177D871F7CE75E0085D913 /* Live.swift */,
+				36177D881F7CE75E0085D913 /* RootClass.swift */,
+				36177D811F7CE2F60085D913 /* KTModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36E73B971F7E92EA00226177 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				36E73B981F7E92EA00226177 /* libcrypto.a */,
+				36E73BAC1F7E94C500226177 /* libssl.a */,
+				36E73B991F7E92EA00226177 /* librtmp.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B4FB78F59B68E314E7039CFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE05BCFB5717EF8DFE472908 /* Pods-KTHeartFlyView.debug.xcconfig */,
+				3412A4754C088B86B6CAAA25 /* Pods-KTHeartFlyView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D27455610DCDC91C1D7B0542 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36E73B9F1F7E931400226177 /* libz.tbd */,
+				994268319AE2A46D9BDFDB88 /* Pods_KTHeartFlyView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36177D551F7C9AE50085D913 /* KTHeartFlyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36177D681F7C9AE50085D913 /* Build configuration list for PBXNativeTarget "KTHeartFlyView" */;
+			buildPhases = (
+				D5EA554385769E07288B36F1 /* [CP] Check Pods Manifest.lock */,
+				36177D521F7C9AE50085D913 /* Sources */,
+				36177D531F7C9AE50085D913 /* Frameworks */,
+				36177D541F7C9AE50085D913 /* Resources */,
+				FCCCEF145309DA439A3CD2E1 /* [CP] Embed Pods Frameworks */,
+				089E0BFF9E83F32913E78D35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTHeartFlyView;
+			productName = KTHeartFlyView;
+			productReference = 36177D561F7C9AE50085D913 /* KT直播.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36177D4E1F7C9AE50085D913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KEENTEAM;
+				TargetAttributes = {
+					36177D551F7C9AE50085D913 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3RAW5T257U;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 36177D511F7C9AE50085D913 /* Build configuration list for PBXProject "KTHeartFlyView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36177D4D1F7C9AE50085D913;
+			productRefGroup = 36177D571F7C9AE50085D913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36177D551F7C9AE50085D913 /* KTHeartFlyView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36177D541F7C9AE50085D913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367829D01F7DE4C500305CC3 /* PlayVedioViewController.xib in Resources */,
+				36177D641F7C9AE50085D913 /* LaunchScreen.storyboard in Resources */,
+				36177D7B1F7CD9E20085D913 /* LiveTableViewCell.xib in Resources */,
+				36177D611F7C9AE50085D913 /* Assets.xcassets in Resources */,
+				36177D5F1F7C9AE50085D913 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		089E0BFF9E83F32913E78D35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KTHeartFlyView/Pods-KTHeartFlyView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5EA554385769E07288B36F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCCCEF145309DA439A3CD2E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KTHeartFlyView/Pods-KTHeartFlyView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36177D521F7C9AE50085D913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36177D7F1F7CE1E30085D913 /* KTConst.swift in Sources */,
+				36177D5C1F7C9AE50085D913 /* ViewController.swift in Sources */,
+				36177D8B1F7CE75E0085D913 /* Extra.swift in Sources */,
+				36177D8A1F7CE75E0085D913 /* Creator.swift in Sources */,
+				36177D8C1F7CE75E0085D913 /* Label.swift in Sources */,
+				36177D8D1F7CE75E0085D913 /* Live.swift in Sources */,
+				36177D7A1F7CD9E20085D913 /* LiveTableViewCell.swift in Sources */,
+				36177D8E1F7CE75E0085D913 /* RootClass.swift in Sources */,
+				36177D821F7CE2F60085D913 /* KTModel.swift in Sources */,
+				36177D891F7CE75E0085D913 /* ActInfo.swift in Sources */,
+				367829CF1F7DE4C500305CC3 /* PlayVedioViewController.swift in Sources */,
+				36177D5A1F7C9AE50085D913 /* AppDelegate.swift in Sources */,
+				36177D751F7CCCF90085D913 /* emmitParticles.swift in Sources */,
+				36177D6F1F7C9DEC0085D913 /* KTHeartFlyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36177D5D1F7C9AE50085D913 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36177D5E1F7C9AE50085D913 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36177D621F7C9AE50085D913 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36177D631F7C9AE50085D913 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36177D661F7C9AE50085D913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36177D671F7C9AE50085D913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36177D691F7C9AE50085D913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE05BCFB5717EF8DFE472908 /* Pods-KTHeartFlyView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3RAW5T257U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KTHeartFlyView",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KTHeartFlyView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KTHeartFlyView/lib",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kt.KTHeartFlyView;
+				PRODUCT_NAME = "KT直播";
+				SWIFT_OBJC_BRIDGING_HEADER = "KTHeartFlyView/KTHeartFlyView/KTHeartFlyView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		36177D6A1F7C9AE50085D913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3412A4754C088B86B6CAAA25 /* Pods-KTHeartFlyView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 3RAW5T257U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KTHeartFlyView",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KTHeartFlyView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KTHeartFlyView/lib",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kt.KTHeartFlyView;
+				PRODUCT_NAME = "KT直播";
+				SWIFT_OBJC_BRIDGING_HEADER = "KTHeartFlyView/KTHeartFlyView/KTHeartFlyView-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36177D511F7C9AE50085D913 /* Build configuration list for PBXProject "KTHeartFlyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36177D661F7C9AE50085D913 /* Debug */,
+				36177D671F7C9AE50085D913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36177D681F7C9AE50085D913 /* Build configuration list for PBXNativeTarget "KTHeartFlyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36177D691F7C9AE50085D913 /* Debug */,
+				36177D6A1F7C9AE50085D913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36177D4E1F7C9AE50085D913 /* Project object */;
+}
