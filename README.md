@@ -11,8 +11,8 @@
 
 ## 项目截图
 
-![首页](https://github.com/KeenTeam1990/KTLive/blob/master/img/live.png)
-![详情](https://github.com/KeenTeam1990/KTLive/blob/master/img/kt.png)
+![首页详情](https://github.com/KeenTeam1990/KTLive/blob/master/img/live.png)
+![直播详情](https://github.com/KeenTeam1990/KTLive/blob/master/img/kt.png)
 ![礼物🎁](https://github.com/KeenTeam1990/KTLive/blob/master/img/gift.png)
 
 ![爱心详情❤️](https://github.com/KeenTeam1990/KTLive/blob/master/img/like.png)
